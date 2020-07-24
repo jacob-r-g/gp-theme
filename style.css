@@ -1,0 +1,169 @@
+/*
+Theme Name:GrydPark
+Text Domain: GrydPark
+Version: 1.0
+Description: Landing site for new GrydPark product offering from Gryd
+Author: Jacob Goldberg
+*/
+
+
+:root {
+    --charcoal: #323232;
+    --primary-green: #00AF85;
+    --green-2: #7fd7c2;
+    --green-3: #bfebe0;
+    --primary-blue: #42BFDF;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h3 {
+    font-family: 'Manrope', sans-serif;
+}
+
+h4 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+}
+
+a,
+button {
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    color: var(--primary-green);
+}
+
+a:hover {
+    color: white;
+}
+
+
+.mycustom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.link {
+    color: var(--primary-green);
+}
+
+.link:hover {
+    color: white;
+}
+
+hr.green-sep {
+    border-top: 10px solid var(--primary-green);
+    margin-top: 0;
+
+}
+
+.footer {
+    background-color: #323232;
+    color: white;
+}
+
+.mail {
+    color: white;
+}
+
+.mail:hover {
+    color: var(--primary-green);
+}
+
+a.mail:before {
+    content: '\f003';
+    color: var(--primary-green);
+    font-family: fontAwesome;
+    float: left;
+    /* Depends on the side we want the icon */
+    margin-right: 10px;
+    /* Creates space between the icon and the text */
+    font-size: 18px;
+    height: 18px;
+    line-height: 25px;
+    /* Same as the font size */
+}
+
+.social {
+    font-size: 32px;
+    margin-right: 20px;
+    color: white;
+}
+
+/*Full page backdrop from <!-- inspired by: https://mdbootstrap.com/docs/jquery/css/background-image/ -->*/
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.btn .fa {
+    margin-left: 3px;
+}
+
+.btn-white {
+    color: black !important;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 1)), to(rgba(0, 175, 133, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
+}
+
+.view .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed
+}
+
+.overlay .mask {
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+
+/*For WP generated footer menu*/
+li {
+    display: inline-block;
+    margin-right:25px;
+}
+ul {
+    margin-left:0px;
+    padding-left:0px;
+}
