@@ -2,8 +2,7 @@
     get_header();
 ?>
 <!-- Full Page Intro -->
-
-<div class="view" style="background-image: url('/wordpress/wp-content/themes/GrydPark/assets/images/Park Background.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div class="view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Park Background.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <!-- Content -->
