@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Need inline stylesheet to utilize php to get image link -->
+<style>
+    .gryd-pattern-background{
+        position: relative; 
+
+     }
+    .gryd-pattern-background::before{
+        content:"";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Green-03.png');
+        background-size: 750px;
+        background-position: center; 
+        background-attachment: fixed;
+        opacity: 0.20;
+    }  
+</style>
 
 <head>
     <!-- meta tags -->
@@ -10,19 +28,29 @@
         wp_head();
     ?>
 </head>
-<html lang="en">
+<?php if (is_front_page()){ ?>
 
 <body>
-    <!-- Main navigation -->
-    <header>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
-            <div class="container">
-                <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <?php
+    <?php } else { ?>
+
+    <body class="gryd-pattern-background">
+        <?php } ?>
+        <!-- Main navigation -->
+        <header>
+            <!--Navbar-->
+            <?php if (is_front_page()){ ?>
+            <nav class="navbar navbar-expand-lg  navbar-dark transparent" role="navigation">
+                <div class="container navbar-inner" style="max-width:1400px">
+                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                    <?php } else { ?>
+                    <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
+                        <div class="container">
+                            <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                            <?php } ?>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <?php
                     wp_nav_menu(
                         array(
                             'menu' => 'primary',
@@ -37,5 +65,5 @@
                         )
                     );
                     ?>
-            </div>
-        </nav>
+                        </div>
+                    </nav>

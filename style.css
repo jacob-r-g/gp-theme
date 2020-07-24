@@ -171,13 +171,6 @@ ul {
 
 
  .navbar.transparent .navbar-inner{
-  /*  border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);*/
     position: absolute;
     top: 10px;
     z-index:1030;
@@ -188,4 +181,8 @@ ul {
     padding: 0 1rem;
  }
 
-/*fixed-top{position:fixed;top:0;right:0;left:0;z-index:1030}*/
+button.faq{
+    font-size:20px;
+    color: var(--primary-green);
+    font-family: 'IBM Plex Mono', monospace;
+}
