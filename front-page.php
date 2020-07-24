@@ -17,7 +17,7 @@
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg  navbar-dark transparent" role="navigation">
-            <div class="container navbar-inner">
+            <div class="container navbar-inner" style="max-width:1400px">
                 <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <!-- Content -->
-        <div class="container">
+        <div class="container" style="margin-top:50px">
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
