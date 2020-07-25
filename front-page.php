@@ -10,18 +10,24 @@
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="col-md-6 white-text text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
                     <h1 style="font-size:350%;font-weight:10; color:white">Looking for parking?</h1>
                     <h1 style="font-size:350%; color:var(--primary-green);font-weight:10">Get on the Gryd.</h1>
                     <hr class="hr-light">
                     <form class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                        <div class="form-group mx-sm-3 mb-2">
-                            <input type="text" name="email" class="form-control-plaintext" style="color:white; border:solid white 1px;" id="emailinput" placeholder="  email@example.com" style="border:1px solid lightgray">
+                        <div class="row">
+                        <!-- <div class="form-group mx-sm-3 my-2"> -->
+                            <div class="col">
+                            <input type="text" name="email" class="form-control-plaintext" style="color:white; border:solid white 1px; height:45px" id="emailinput" placeholder="  email@example.com">
                         </div>
+                        <!-- </div> -->
                         <input type="hidden" name="campaign_token" value="KHQs0" />
-                        <div class="form-group mx-sm-3 mb-2">
-                            <input id="getresponse-submit" type="submit" class="btn mb-2" style="background-color:var(--primary-green); border-color:var(--primary-green);border-radius:0" value="Get Early Access" />
+                        <!-- <div class="form-group mx-sm-3 my-2"> -->
+                            <div class="col">
+                            <input id="getresponse-submit" type="submit" class="btn" style="background-color:var(--primary-green); border-color:var(--primary-green);border-radius:0; margin-top:0;height:45px" value="Get Early Access" />
+                        <!-- </div> -->
                         </div>
+                        <div class="row">
                     </form>
                 </div>
                 <!--Grid column-->

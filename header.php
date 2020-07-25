@@ -15,7 +15,7 @@
         background-size: 750px;
         background-position: center; 
         background-attachment: fixed;
-        opacity: 0.20;
+        opacity: 0.15;
     }  
 </style>
 
