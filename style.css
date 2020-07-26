@@ -132,14 +132,6 @@ h6 {
     background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
-.rgba-gradient {
-    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
-    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 1)), to(rgba(0, 175, 133, 0.7)));
-    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
-    background: linear-gradient(to 45deg, rgba(0, 0, 0, 1), rgba(0, 175, 133, 0.7));
-}
-
 .view .mask {
     position: absolute;
     top: 0;

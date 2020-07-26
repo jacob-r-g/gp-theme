@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-<div class="container gryd-background-pattern">
+<div class="container">
     <div class="my-5"></div>
     <h1>
         <?php the_title(); ?>

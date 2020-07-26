@@ -4,7 +4,7 @@
 <!-- Full Page Intro -->
 <div class="view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Park Background.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+    <div class="mask d-flex justify-content-center align-items-center" style="background-color:rgba(0,0,0,0.35)">
         <!-- Content -->
         <div class="container" style="margin-top:50px">
             <!--Grid row-->
@@ -24,7 +24,7 @@
                         <input type="hidden" name="campaign_token" value="KHQs0" />
                         <!-- <div class="form-group mx-sm-3 my-2"> -->
                             <div class="col">
-                            <input id="getresponse-submit" type="submit" class="btn" style="background-color:var(--primary-green); border-color:var(--primary-green);border-radius:0; margin-top:0;height:45px" value="Get Early Access" />
+                            <input id="getresponse-submit" type="submit" class="btn" style="background-color:var(--primary-green); border-color:var(--primary-green);border-radius:0; margin-top:0;min-height:45px" value="Get Early Access" />
                         <!-- </div> -->
                         </div>
                         <div class="row">
