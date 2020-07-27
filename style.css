@@ -36,11 +36,9 @@ p {
     font-family: 'Manrope', sans-serif;
 }
 
-a,
-input,
-button {
+a, input, button {
     font-family: 'Manrope', sans-serif;
-}
+} 
 
 a {
     color: var(--primary-green);
