@@ -37,6 +37,7 @@ p {
 }
 
 a,
+input,
 button {
     font-family: 'Manrope', sans-serif;
 }
