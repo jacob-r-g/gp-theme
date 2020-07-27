@@ -3,7 +3,7 @@
 ?>
 </header>
 
-<div class="container">
+<div class="container" style="min-height:65vh">
     <div class="my-5"></div>
     <h1>
         <?php the_title(); ?>
