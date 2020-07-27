@@ -1,6 +1,8 @@
 <?php
     get_header();
 ?>
+</header>
+
 <div class="container">
     <div class="my-5"></div>
     <h1>
@@ -16,9 +18,8 @@ if( have_posts() ){
     }
 }
 ?>
+<div class="my-5"></div>
 </div>
-<!-- Full Page Intro -->
-</header>
 <?php
     get_footer();
 ?>

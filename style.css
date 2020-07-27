@@ -104,12 +104,11 @@ a.mail:before {
 
 /*Full page backdrop from <!-- inspired by: https://mdbootstrap.com/docs/jquery/css/background-image/ -->*/
 /* Required for full background image */
-
-html,
-body,
-header,
+html.front-page,
+body.front-page,
+header.front-page,
 .view {
-    height: 100%;
+    height: 100%
 }
 
 .btn .fa {

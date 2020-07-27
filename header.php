@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<?php if (is_front_page()){ ?>
+<html lang="en" class="front-page">
+<?php } else { ?>
 <html lang="en">
+<?php } ?>
 <!-- Need inline stylesheet to utilize php to get image link -->
 <style>
     .gryd-pattern-background{
@@ -30,16 +34,16 @@
 </head>
 <?php if (is_front_page()){ ?>
 
-<body>
+<body class="front-page">
     <?php } else { ?>
 
     <body class="gryd-pattern-background">
         <?php } ?>
         <!-- Main navigation -->
-        <header>
+        <header class = "front-page">
             <!--Navbar-->
             <?php if (is_front_page()){ ?>
-            <nav class="navbar navbar-expand-lg  navbar-dark transparent frontpage-nav" role="navigation">
+            <nav class="navbar navbar-expand-sm  navbar-dark transparent frontpage-nav" role="navigation">
                 <div class="container navbar-inner" style="max-width:1200px">
                     <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
                     <?php } else { ?>
@@ -67,3 +71,6 @@
                     ?>
                         </div>
                     </nav>
+                </div>
+
+       
