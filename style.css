@@ -183,8 +183,8 @@ button.faq {
 }
 
 /*for navbar dropdown visibility*/
-.navbar-collapse.show .navbar-nav {
-    background-color: rgba(0, 175, 133, 0.9);
+.frontpage-nav .navbar-collapse.show .navbar-nav {
+    background-color: rgba(50,50,50, 0.4);
     border-radius:5px;
     animation: fadeIn ease 1s;
     -webkit-animation: fadeIn ease 1s;
@@ -193,22 +193,17 @@ button.faq {
     -ms-animation: fadeIn ease 1s;
 }
 
-.dropdown-menu.show {
-    background-color: rgba(0, 175, 133, 0.9);
+.frontpage-nav .navbar-inner .dropdown-menu.show {
+    background-color: rgba(50,50,50, 0.4);
     border-radius:5px;
-    animation: fadeIn ease 0.3s;
-    -webkit-animation: fadeIn ease 0.3s;
-    -moz-animation: fadeIn ease 0.3s;
-    -o-animation: fadeIn ease 0.3s;
-    -ms-animation: fadeIn ease 0.3s;
 }
 
-.navbar .dropdown-menu a:not(.active) {
+.frontpage-nav .dropdown-menu a:not(.active) {
     color: white;
 }
 
-.navbar .dropdown-menu a:hover {
-    background-color: var(--primary-green);
+.frontpage-nav .dropdown-menu a:hover {
+    background-color: rgba(50,50,50, 0);
     border-radius: 5px
 
 }
