@@ -8,29 +8,30 @@
         <!-- Content -->
         <div class="container" style="margin-top:50px">
             <!--Grid row-->
-            <div class="row">
+            <div class="row justify-content-start">
                 <!--Grid column-->
-                <div class="col-md-6 white-text text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="col-md-6 white-text text-md-left mt-xl-5 mb-2 wow fadeInLeft" data-wow-delay="0.3s">
                     <h1 style="font-size:350%;font-weight:10; color:white">Looking for parking?</h1>
                     <h1 style="font-size:350%; color:var(--primary-green);font-weight:10">Get on the Gryd.</h1>
                     <hr class="hr-light">
-                    <form class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                        <div class="row">
-                        <!-- <div class="form-group mx-sm-3 my-2"> -->
-                            <div class="col">
-                            <input type="text" name="email" class="form-control-plaintext" style="color:white; border:solid white 1px; height:45px" id="emailinput" placeholder="  email@example.com">
-                        </div>
-                        <!-- </div> -->
-                        <input type="hidden" name="campaign_token" value="KHQs0" />
-                        <!-- <div class="form-group mx-sm-3 my-2"> -->
-                            <div class="col">
-                            <input id="getresponse-submit" type="submit" class="btn" style="background-color:var(--primary-green); border-color:var(--primary-green);border-radius:0; margin-top:0;min-height:45px" value="Get Early Access" />
-                        <!-- </div> -->
-                        </div>
-                        <div class="row">
-                    </form>
                 </div>
                 <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <div class="row justify-content-start">
+                <form class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+                    <!-- <div class="form-group mx-sm-3 my-2"> -->
+                    <div class="col-sm-6">
+                        <input type="text" name="email" class="form-control-plaintext" style="color:white; border:solid white 1px; height:45px;width:195px" id="emailinput" placeholder="  email@example.com">
+                    </div>
+                    <!-- </div> -->
+                    <input type="hidden" name="campaign_token" value="KHQs0" />
+                    <!-- <div class="form-group mx-sm-3 my-2"> -->
+                    <div class="col-sm-6">
+                        <input id="getresponse-submit" type="submit" class="btn" style="background-color:var(--primary-green);border-radius:0; min-height:45px;width:195px; margin-left:0px" value="Get Early Access" />
+                        <!-- </div> -->
+                    </div>
+                </form>
             </div>
             <!--Grid row-->
         </div>
