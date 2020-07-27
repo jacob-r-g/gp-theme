@@ -2,7 +2,7 @@
 <footer class="footer" style="position:relative;display:block">
     <div class="container" style="padding-left: 30px">
         <div style="padding-top: 50px;padding-bottom: 30px;">
-            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-fullcolour-rev-left-top-crop.png" class="img-fluid " alt="{gryd-logo}" width="175" style="margin-right: 50px"></a>
+            <a href="https://gryd.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-fullcolour-rev-left-top-crop.png" class="img-fluid " alt="{gryd-logo}" width="175" style="margin-right: 50px"></a>
             <!-- Widget Area -->
             <div style="display:inline-block;">
                 <?php
