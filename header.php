@@ -45,7 +45,7 @@
             <?php if (is_front_page()){ ?>
             <nav class="navbar navbar-expand-sm  navbar-dark transparent frontpage-nav" role="navigation">
                 <div class="container navbar-inner" style="max-width:1200px">
-                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid" alt="{gryd-park-logo}" width="250"></a>
                     <?php } else { ?>
                     <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
                         <div class="container">
