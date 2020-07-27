@@ -207,3 +207,6 @@ button.faq {
 
 }
 
+/*Dont let pattern crowd view in mobile*/
+@media screen and (max-width: 900px) { .fp-pattern { display: none; } }
+

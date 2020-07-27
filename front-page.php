@@ -35,6 +35,7 @@
             </div>
             <!--Grid row-->
         </div>
+            <div class="float-right position-absolute fp-pattern"style="top:10%;right:-10%;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Green-03.png" width=800px></div>
         <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
