@@ -25,9 +25,10 @@ $(document).ready(function() {
                     // console.log("ERROR: Result: ", result)
                     // }
                 });
-                $("#getresponse-submit").css("class", "disabled")
-                $("#getresponse-submit").val("Thank You!")
-                $("#emailinput").attr("type", "hidden")
+                // $("#getresponse-submit").css("class", "disabled")
+                // $("#getresponse-submit").val("Thank You!")
+                $("#getresponse-form").css("display", "none");
+                $("#getresponse-submit-thankyou").css("display", "block");
             }
             event.preventDefault(); // block the traditional submission of the form.
 
