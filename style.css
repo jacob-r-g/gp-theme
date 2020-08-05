@@ -206,6 +206,7 @@ button.faq {
 
 }
 
+/*Placeholder text color*/
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgba(255,255,255, 0.7);
   opacity: 1; /* Firefox */
