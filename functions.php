@@ -34,12 +34,12 @@ function grydpark_register_styles(){
 	wp_enqueue_style('grydpark-fontawesome', "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", array(), '4.7.0', 'all');
 	// google fonts for MDB
 	wp_enqueue_style('grydpark-google-font', "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap", array(), '4.5.0', 'all');
-	// bootstrap css
-	wp_enqueue_style('grydpark-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", array(), '4.5.0', 'all');
 	// Material Design Bootstrap
 	wp_enqueue_style('grydpark-mdb', "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css", array(), '4.19.1', 'all');
+	// bootstrap css
+	wp_enqueue_style('grydpark-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", array(), '4.5.0', 'all');
 	// Gryd Fonts
-	wp_enqueue_style('grydpark-manrope-font', "https://fonts.googleapis.com/css2?family=Manrope&display=swap", array(), '1.0', 'all');
+	wp_enqueue_style('grydpark-manrope-font', "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap", array(), '1.0', 'all');
 	wp_enqueue_style('grydpark-ibm-plex-font', "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap", array(), '1.0', 'all');
 	// Custom Styling
 	wp_enqueue_style('grydpark-style', get_template_directory_uri() . "/style.css", array(), $version, 'all');
