@@ -40,21 +40,15 @@
     <body class="gryd-pattern-background">
         <?php } ?>
         <!-- Main navigation -->
-        <header class = "front-page">
+        <header class="front-page">
             <!--Navbar-->
-            <?php if (is_front_page()){ ?>
-            <nav class="navbar navbar-expand-sm  navbar-dark transparent frontpage-nav" role="navigation">
-                <div class="container navbar-inner" style="max-width:1600px">
-                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour-rev.png" class="img-fluid" alt="{gryd-park-logo}" width="250"></a>
-                    <?php } else { ?>
-                    <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
-                        <div class="container">
-                            <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
-                            <?php } ?>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <?php
+            <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
+                <div class="container">
+                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <?php
                     wp_nav_menu(
                         array(
                             'menu' => 'primary',
@@ -69,8 +63,6 @@
                         )
                     );
                     ?>
-                        </div>
-                    </nav>
                 </div>
-
-       
+            </nav>
+            </div>
