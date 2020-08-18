@@ -222,7 +222,7 @@ button.faq {
 
 
 /*Dont let pattern crowd view in mobile*/
-@media screen and (max-width: 755px) { .fp-pattern { display: none; } }
+@media screen and (max-width: 525px) { .fp-pattern { display: none; } }
 
 
 
