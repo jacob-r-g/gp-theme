@@ -49,7 +49,7 @@
             </div>
             <!--Grid row-->
         </div>
-        <div class="float-right position-absolute fp-pattern" style="top:5vh;left:85vw;"><img style="max-width:450px" src="<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Black-02_rotate.png"></div>
+        <div class="float-right position-absolute fp-pattern" style="top:5vh;left:80vw;"><img style="max-width:450px" src="<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Black-02_rotate.png"></div>
         <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
