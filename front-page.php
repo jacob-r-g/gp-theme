@@ -7,7 +7,7 @@
     <!-- Mask & flexbox options-->
     <div class="mask d-flex justify-content-center align-items-center" style="background-color:rgba(0,0,0,0)">
         <!-- Content -->
-        <div class="container" style="margin-top:-75px">
+        <div class="container" style="margin-top:-75px;margin-bottom: :75px">
             <!--Grid row-->
             <div class="row justify-content-start">
                 <!--Grid column-->
@@ -31,7 +31,7 @@
                 <form id="getresponse-form" class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
                     <div class="col-md">
                         <div class="input-group mb-3">
-                            <input style="width:300px" type="text" id="emailinput" name="email" class="form-control" placeholder="Your email here.">
+                            <input style="width:60vw; max-width:300px"" type="text" id="emailinput" name="email" class="form-control" placeholder="Your email here.">
                             <div class="input-group-append">
                                 <button style="margin:0;text-transform:None;width:100px" id="getresponse-submit" class="btn btn-dark" type="submit">Submit</button>
                             </div>
