@@ -42,10 +42,11 @@ a, input, button {
 
 a {
     color: var(--primary-green);
+    position:relative;
 }
 
 a:hover {
-    color: white;
+    color: var(--green-2);
 }
 
 
