@@ -150,12 +150,12 @@ h6 {
 }
 
 /*For WP generated footer menu*/
-li {
+.footer li {
     display: inline-block;
     margin-right: 25px;
 }
 
-ul {
+.footer ul {
     margin-left: 0px;
     padding-left: 0px;
 }
