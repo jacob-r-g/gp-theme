@@ -42,8 +42,8 @@
                 <div class="col-sm-6">
                     <!-- Thank you message -->
                     <div id="getresponse-submit-thankyou" class="text-black animated fadeIn" style="display:none">
-                        <h2>Thank You!</h2>
-                        <p>A message about what you should expect</p>
+                        <h2>You’re on the waitlist!</h2>
+                        <p>We will reach out shortly with more info.</p>
                     </div>
                 </div>
             </div>
