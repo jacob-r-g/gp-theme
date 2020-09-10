@@ -34,7 +34,7 @@
 </head>
 <?php if (is_front_page()){ ?>
 
-<body class="front-page">
+<body>
     <?php } else { ?>
 
     <body class="gryd-pattern-background">
