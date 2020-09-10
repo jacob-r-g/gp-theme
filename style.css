@@ -227,13 +227,20 @@ button.faq {
 @media screen and (max-width: 670px) { .fp-pattern { display: none; } }
 
 
-/*Support button*/
+/*Tweaked buttons*/
 
 .btn.support {
     border-radius: 0;
     color: white;
     background-color: var(--primary-green);
     letter-spacing:3px;
+}
+
+.btn.learn-more {
+    border-radius: 0;
+    color: white;
+    background-color: var(--primary-green);
+    letter-spacing:2px;
 }
 
 

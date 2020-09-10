@@ -60,13 +60,29 @@
     <div class="mask d-flex justify-content-center align-items-center">
         <!-- Content -->
         <div class="container">
-            <p>Here is some stuff Here is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuff</p>
-            <p>Here is some stuff Here is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuffHere is some stuff</p>
+            <div class="row align-items-center">
+                <!-- Image col -->
+                <div class="col">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_phone.png" class="img-fluid" style="max-width:300px">
+                </div>
+                <!-- Image col -->
+                <!-- Text col -->
+                <div class="col-6">
+                    <h3 style="color:var(--primary-green)">Connecting drivers to<br>available parking spots.</h3>
+                    <div class="my-4"></div> <!-- spacer -->
+                    <p>GrydPark is changing the way people park — enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
+                    <div class="my-4"></div> <!-- spacer -->
+                    <button class="btn learn-more px-5" type="submit"> Learn More <span><i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </span> </button>
+                </div>
+                <!-- Text col -->
+            </div>
         </div>
         <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
 </div>
+
 <div class="view" style="background-color:white">
     <!-- Mask & flexbox options-->
     <div class="mask d-flex justify-content-center align-items-center">
@@ -84,11 +100,13 @@
     <!-- <div class="mask d-flex justify-content-center align-items-center"> -->
     <!-- Content -->
     <div class="container">
-        <div class="row offset-md-1" >
+        <div class="row offset-md-1">
             <div class="col">
                 <div class="card bg-light special-card my-4 px-4 ">
                     <div class="row">
-                        <div class="col text-center "> <h3 class="h3-adapt-size">CONVENIENT </h3> </div>
+                        <div class="col text-center ">
+                            <h3 class="h3-adapt-size">CONVENIENT </h3>
+                        </div>
                         <div class="col text-left">A solution to your parking stress at your fingertips. Search, book and pay all in one seamless experience. </div>
                     </div>
                 </div>
@@ -98,8 +116,10 @@
             <div class="col">
                 <div class="card bg-light special-card my-4 px-4">
                     <div class="row">
-                        <div class="col text-center "> <h3 class="h3-adapt-size">COST-EFFECTIVE</h3></div>
-                        <div class="col text-left">Our competitive pricing is often lower than the surrounding parking options.  Our casual rates mean that you only pay for when you need to park.</div>
+                        <div class="col text-center ">
+                            <h3 class="h3-adapt-size">COST-EFFECTIVE</h3>
+                        </div>
+                        <div class="col text-left">Our competitive pricing is often lower than the surrounding parking options. Our casual rates mean that you only pay for when you need to park.</div>
                     </div>
                 </div>
             </div>
@@ -108,7 +128,9 @@
             <div class="col">
                 <div class="card bg-light special-card my-4 px-4 ">
                     <div class="row">
-                        <div class="col text-center "> <h3 class="h3-adapt-size"> FORWARD-THINKING</h3></div>
+                        <div class="col text-center ">
+                            <h3 class="h3-adapt-size"> FORWARD-THINKING</h3>
+                        </div>
                         <div class="col text-left">Make a booking before you leave and avoid wasting time circling the block to find a parking spot. Our helpful navigation will direct you straight to your assigned spot. </div>
                     </div>
                 </div>
@@ -126,7 +148,8 @@
         <!-- Content -->
         <div class="container text-center">
             <h1 style="color:var(--primary-green);font-weight:500;letter-spacing:3px"> HAVE QUESTIONS? </h1>
-            <button class="btn support px-5" type="submit">Grydpark Support Site</button>
+            <button class="btn support px-5" type="submit">Grydpark Support Site <span><i class="fa fa-play-circle" aria-hidden="true"></i>
+                </span></button>
         </div>
         <!-- Content -->
     </div>
