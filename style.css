@@ -13,6 +13,7 @@ Author: Jacob Goldberg
     --green-2: #7fd7c2;
     --green-3: #bfebe0;
     --primary-blue: #42BFDF;
+    --light-gray: #EAEAEA;
 }
 
 h1 {
@@ -108,7 +109,7 @@ html.front-page,
 body.front-page,
 header.front-page,
 .view {
-    height: 98vh;
+    height: 100vh;
     min-height: 500px;
 }
 
@@ -162,6 +163,33 @@ h6 {
 }
 
 
+
+/*For navbar shadow*/
+.navbar, .navbar-brand{
+    z-index: 99999;
+    padding:0;
+}
+
+/*For navbar items */
+.navbar-nav{
+    font-weight: 600
+}
+
+.nav-link{
+    padding: 1.5rem 1rem;
+    margin-right:15px;
+    margin-left: 15px;
+}
+
+.nav-link:hover{
+    background-color: var(--primary-green);
+}
+
+/*For Navbar item  selected background color*/
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link{
+ background-color: var(--primary-green);
+ color:white;
+}
 
 /*For transparent navbar*/
 .navbar.transparent .navbar-inner {
@@ -229,27 +257,29 @@ button.faq {
 
 /*Tweaked buttons*/
 
-.btn.support {
+.btn.main-btn {
     border-radius: 0;
     color: white;
     background-color: var(--primary-green);
     letter-spacing:3px;
+    z-index: 9999
 }
 
-.btn.learn-more {
-    border-radius: 0;
-    color: white;
-    background-color: var(--primary-green);
-    letter-spacing:2px;
+.btn.main-btn:hover, .btn.main-btn:focus, .btn.main-btn:active {
+    /*color: #fff;*/
+    background-color: var(--charcoal);
+
 }
 
 
 /*Special cards*/
 
 .special-card {
-    justify-content:center !important;
+    min-height:125px;
+    max-width: 800px;
+   /* justify-content:center !important;
     height:25vh;
-    min-height:175px;
+    
     max-height:245px;
     max-width: 700px;
     border:none;
@@ -257,7 +287,7 @@ button.faq {
     font-size: calc(12px + 3 * ((100vw - 320px) / 680));
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-  /*  -webkit-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;*/
 
 }
@@ -267,3 +297,9 @@ button.faq {
     color:var(--primary-green);
 }
 
+.primary-green {
+    color: var(--primary-green)
+}
+.charcoal {
+    color: var(--charcoal)
+}
