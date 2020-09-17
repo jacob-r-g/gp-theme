@@ -60,7 +60,7 @@
         <div class="row align-items-center justify-content-center">
             <!-- Image col -->
             <div class="col-md mx-5 " style="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec2_phone-mockup.png" class="img-fluid pt-4" style="max-width:310px; max-height:479px; height:calc(200px + 15 * ((100vh - 200px) / 20))">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-full.png" class="img-fluid pt-4" style="max-width:310px; max-height:479px; height:calc(200px + 15 * ((100vh - 200px) / 20))">
             </div>
             <!-- Image col -->
             <!-- Text col -->
