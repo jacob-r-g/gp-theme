@@ -110,7 +110,7 @@ body.front-page,
 header.front-page,
 .view {
     height: 100vh;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .btn .fa {
@@ -252,7 +252,7 @@ button.faq {
 
 
 /*Dont let pattern crowd view in mobile*/
-@media screen and (max-width: 670px) { .fp-pattern { display: none; } }
+@media screen and (max-width: 755px) { .fp-pattern { display: none; } }
 
 
 /*Tweaked buttons*/
@@ -274,9 +274,20 @@ button.faq {
 
 /*Special cards*/
 
-.special-card {
+.special-card-1{
+    background-color: var(--light-gray);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border:none;
+    border-radius: 0;
+    padding-bottom: 10px;
+
+
+}
+
+.special-card-2 {
     min-height:125px;
-    max-width: 800px;
+    max-width: 900px;
    /* justify-content:center !important;
     height:25vh;
     
@@ -293,8 +304,12 @@ button.faq {
 }
 
 .h3-adapt-size {
-    font-size: calc(21px + 4 * ((100vw - 320px) / 680));
+    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
     color:var(--primary-green);
+}
+.p-adapt-size{
+    font-size: calc(12px + 1 * ((100vw - 320px) / 680));
+
 }
 
 .primary-green {
@@ -302,4 +317,8 @@ button.faq {
 }
 .charcoal {
     color: var(--charcoal)
+}
+
+.bg-light-gray {
+    background-color: var(--light-gray)
 }
