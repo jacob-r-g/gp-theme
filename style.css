@@ -280,9 +280,7 @@ button.faq {
     box-shadow: none;
     border:none;
     border-radius: 0;
-    padding-bottom: 10px;
-
-
+    min-height:165px;
 }
 
 .special-card-2 {

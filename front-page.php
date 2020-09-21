@@ -60,11 +60,21 @@
         <div class="row align-items-center justify-content-center">
             <!-- Image col -->
             <div class="col-md mx-5 " style="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-full.png" class="img-fluid pt-4" style="max-width:679px; max-height:453px; height:calc(200px + 15 * ((100vh - 200px) / 20))">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-crop.png" class="img-fluid pt-4" style="max-width:calc(1036px / 2); max-height:calc(1460px / 2); height:calc(200px + 15 * ((100vh - 200px) / 20));">
             </div>
             <!-- Image col -->
             <!-- Text col -->
-            <div class="col-md-6 mx-auto">
+            <div class="col-md-6 d-none d-md-block">
+                <h3 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h3>
+                <div class="my-4"></div> <!-- spacer -->
+                <p class="">GrydPark is changing the way people park — Enabling<br> drivers to find and pre-book parking spots through our<br> advanced parking marketplace app.</p>
+                <div class="my-4"></div> <!-- spacer -->
+                <button class="btn main-btn px-5" type="submit"> Learn More </button>
+                <div class="pb-2"></div> <!-- spacer -->
+            </div>
+            <!-- Text col -->
+            <!-- Text col  for small screens-->
+            <div class="col-md-6 text-center d-md-none">
                 <h3 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h3>
                 <div class="my-4"></div> <!-- spacer -->
                 <p class="">GrydPark is changing the way people park — Enabling<br> drivers to find and pre-book parking spots through our<br> advanced parking marketplace app.</p>
@@ -88,23 +98,23 @@
         <div class="row">
             <div class="col-md-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
-                <div class="card special-card-1 text-center" style="height:30%">
-                    <h5 class="primary-green pt-2">Plan</h5>
+                <div class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-2">Plan</h3>
                     <p class="px-4">Enter an address, business
                         name or landmark to secure the  perfect parking spot for today  or for and upcoming trip.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
-                <div class="card special-card-1 text-center" style="height:30%">
-                    <h5 class="primary-green pt-2">Pay</h5>
+                <div class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-2">Pay</h3>
                     <p class="px-4">Payment is quick, easy and secure through the grydpark mobile app.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
-                <div class="card special-card-1 text-center" style="height:30%">
-                    <h5 class="primary-green pt-2">Park</h5>
+                <div class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-2">Park</h3>
                     <p class="px-4">Skip the hassle of parking  and arrive at your reserved spot using the instructions provided.</p>
                 </div>
             </div>
