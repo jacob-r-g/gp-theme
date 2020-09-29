@@ -99,7 +99,7 @@
         <div class="row d-md-none d-lg-flex">
             <div class="col-md-4 mb-4 px-4">
                 <h3>01</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_plan.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_plan.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Plan</h3>
                     <p class="px-4">Enter an address, business
@@ -108,7 +108,7 @@
             </div>
             <div class="col-md-4 mb-4 px-4">
                 <h3>02</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_pay.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_pay.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Pay</h3>
                     <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
@@ -117,7 +117,7 @@
             </div>
             <div class="col-md-4 mb-4 px-4">
                 <h3>03</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_park.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_park.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Park</h3>
                     <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
