@@ -65,7 +65,7 @@
             <!-- Image col -->
             <!-- Text col -->
             <div class="col-md-6 d-none d-md-block">
-                <h3 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h3>
+                <h1 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h1>
                 <div class="my-4"></div> <!-- spacer -->
                 <p class="">GrydPark is changing the way people park — Enabling<br> drivers to find and pre-book parking spots through our<br> advanced parking marketplace app.</p>
                 <div class="my-4"></div> <!-- spacer -->
@@ -95,35 +95,69 @@
         <div class="my-5"></div>
         <h3 class="text-center primary-green" style="letter-spacing:3px">STEPS</h3>
         <h1 class="text-center mb-4" style="letter-spacing:4px">HOW TO PARK</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
+        <!-- For all screen sizes Except md -->
+        <div class="row d-md-none d-lg-flex">
+            <div class="col-md-4 mb-4 px-4">
+                <h3>01</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_plan.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Plan</h3>
                     <p class="px-4">Enter an address, business
                         name or landmark to secure the  perfect parking spot for today  or for and upcoming trip.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
+            <div class="col-md-4 mb-4 px-4">
+                <h3>02</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_pay.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Pay</h3>
+                    <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
                     <p class="px-4">Payment is quick, easy and secure through the grydpark mobile app.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/temp_step_image.png" class="img-fluid" style="height:68%">
+            <div class="col-md-4 mb-4 px-4">
+                <h3>03</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_park.png" class="img-fluid my-4 d-none d-lg-block" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Park</h3>
+                    <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
                     <p class="px-4">Skip the hassle of parking  and arrive at your reserved spot using the instructions provided.</p>
                 </div>
             </div>
         </div>
+        <!-- For all screen sizes Except md -->
+        <!-- For md screen size -->
+        <div class="row d-none d-md-flex d-lg-none">
+            <div class="col-md-4 mb-4 px-3">
+                <h3>01</h3>
+                <div style="min-height:220px" class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-2">Plan</h3>
+                    <p class="px-4">Enter an address, business
+                        name or landmark to secure the  perfect parking spot for today  or for and upcoming trip.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 px-3">
+                <h3>02</h3>
+                <div style="min-height:220px" class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-2">Pay</h3>
+                    <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
+                    <p class="px-4">Payment is quick, easy and secure through the grydpark mobile app.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 px-3">
+                <h3>03</h3>
+                <div style="min-height:220px" class="card special-card-1 text-center">
+                    <h3 class="primary-green pt-3">Park</h3>
+                    <div class="triangle d-none d-md-block" style="margin-top:75px; margin-left:-20px"></div>
+                    <p class="px-4">Skip the hassle of parking  and arrive at your reserved spot using the instructions provided.</p>
+                </div>
+            </div>
+        </div>
+        <!--For md screen size -->
     </div>
     <!-- Content -->
     <!-- Spacer -->
     <div style="margin-bottom:80px"></div>
-
 </div>
 <div class="view" style="background-color:var(--light-gray); min-height:680px;height:100%">
     <!-- Mask & flexbox options-->
@@ -131,7 +165,7 @@
     <!-- Content -->
     <div class="container">
         <!-- spacer -->
-        <div class="my-5"></div>
+        <div class="my-4"></div>
         <h3 class="text-center primary-green" style="letter-spacing:3px">PARKING</h3>
         <h1 class="text-center" style="letter-spacing:4px">BENEFITS</h1>
         <div class="row ">
@@ -141,9 +175,13 @@
                         <div class="col-auto text-center my-auto">
                             <h3 class="h3-adapt-size">Convinient </h3>
                         </div>
-                        <div class="col-auto primary-green my-auto d-none d-md-block"> -------> </div>
+                        <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
                         <div class="col text-left my-auto p-adapt-size">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
-                        <div class="col-1 d-none d-md-block">IMG</div>
+                        <div class="col-1 d-none d-md-block">
+                            <div class="bookmark shadow-sm">
+                                <h6>A</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,9 +193,13 @@
                         <div class="col-auto text-center my-auto">
                             <h3 class="h3-adapt-size">Affordable</h3>
                         </div>
-                        <div class="col-auto primary-green my-auto d-none d-md-block"> -------> </div>
+                        <div style="size:200px" class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
                         <div class="col text-left my-auto p-adapt-size">Our competitive pricing is often lower than the surrounding parking options.<br>  Our casual rates mean that you only pay for when you need to park.</div>
-                        <div class="col-1 d-none d-md-block">IMG</div>
+                        <div class="col-1 d-none d-md-block">
+                            <div class="bookmark shadow-sm">
+                                <h6>B</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,9 +211,13 @@
                         <div class="col-auto text-center my-auto">
                             <h3 class="h3-adapt-size">Innovative</h3>
                         </div>
-                        <div class="col-auto primary-green my-auto d-none d-md-block"> -------> </div>
+                        <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
                         <div class="col text-left my-auto p-adapt-size">Book a parking spot before you leave home to avoid circling the block.<br>  Our helpful navigation system will direct you straight to your assigned spot.</div>
-                        <div class="col-1 d-none d-md-block">IMG?</div>
+                        <div class="col-1 d-none d-md-block">
+                            <div class="bookmark shadow-sm">
+                                <h6>C</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -182,11 +228,11 @@
 <!-- Mask & flexbox options-->
 <!-- </div> -->
 </div>
-<div class="view" style="background-color:white;height:50vh">
+<div class="view" style="background-color:white;height:45vh">
     <!-- Mask & flexbox options-->
     <div class="mask d-flex justify-content-center align-items-center">
         <!-- Content -->
-        <div class="container text-center  bg-light-gray " style="height:60%">
+        <div class="container-sm text-center bg-light-gray" style="height:50%">
             <!-- Pseudo centering with cheating spacer -->
             <div style="height:30%"></div>
             <h1 style="font-weight:500;letter-spacing:3px"> HAVE QUESTIONS? </h1>

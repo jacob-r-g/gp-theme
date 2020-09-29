@@ -33,6 +33,14 @@ h4 {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+h5 {
+    font-family: 'Manrope', sans-serif;
+}
+
+h6 {
+    font-family: 'Manrope', sans-serif;
+}
+
 p {
     font-family: 'Manrope', sans-serif;
 }
@@ -281,11 +289,13 @@ button.faq {
     border:none;
     border-radius: 0;
     min-height:165px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .special-card-2 {
     min-height:125px;
-    max-width: 900px;
+    max-width: 800px;
    /* justify-content:center !important;
     height:25vh;
     
@@ -319,4 +329,50 @@ button.faq {
 
 .bg-light-gray {
     background-color: var(--light-gray)
+}
+
+
+/*Triangle for graphics*/
+/*from https://stackoverflow.com/questions/14446677/how-to-make-3-corner-rounded-triangle-in-css*/
+.triangle {
+    position: absolute;
+    background-color: var(--primary-green);
+    text-align: left;
+}
+.triangle:before,
+.triangle:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+    width:  calc(20px + 4 * ((100vw - 320px) / 680));
+    height: calc(20px + 4 * ((100vw - 320px) / 680));
+    border-top-right-radius: 5%;
+}
+
+.triangle {
+    transform: rotate(53deg) skewX(10deg) scale(1,.866);
+}
+.triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+/*Bookmark*/
+
+.bookmark{
+    background-color: var(--charcoal);
+    color: white;
+    /*border: 2px;*/
+    border-radius: 2px;
+    height: 60px;
+    width: 40px;
+    padding-left: 14px;
+    padding-top: 21px;
+    margin-top: -40px;
 }
