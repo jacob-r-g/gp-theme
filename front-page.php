@@ -6,7 +6,7 @@
     <!-- Mask & flexbox options-->
     <div class="mask d-flex justify-content-center align-items-center" style="background-color:rgba(0,0,0,0);overflow:visible;">
         <!-- Content -->
-        <div class="container" style="margin-top:-150px;margin-bottom:120px;">
+        <div class="container" style="margin-top:-90px;margin-bottom:120px;">
             <!--Grid row-->
             <div class="row justify-content-start">
                 <!--Grid column-->
@@ -47,7 +47,7 @@
             </div>
             <!--Grid row-->
         </div>
-        <div class="float-right position-absolute fp-pattern" style="top:30vh;left:33vw;z-index:2"><img style="width:100vh ;max-width:700px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
+        <div class="float-right position-absolute d-none d-lg-block" style="top:30vh;left:33vw;z-index:2"><img style="width:100vh ;max-width:700px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
         <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
@@ -67,7 +67,7 @@
             <div class="col-md-6 d-none d-md-block">
                 <h1 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h1>
                 <div class="my-4"></div> <!-- spacer -->
-                <p class="">GrydPark is changing the way people park — Enabling<br> drivers to find and pre-book parking spots through our<br> advanced parking marketplace app.</p>
+                <p class="">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
                 <div class="my-4"></div> <!-- spacer -->
                 <button class="btn main-btn px-5" type="submit"> Learn More </button>
                 <div class="pb-2"></div> <!-- spacer -->
@@ -75,7 +75,7 @@
             <!-- Text col -->
             <!-- Text col  for small screens-->
             <div class="col-md-6 text-center d-md-none">
-                <h3 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h3>
+                <h1 class="charcoal mt-3" style="font-size:1.9rem">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h1>
                 <div class="my-4"></div> <!-- spacer -->
                 <p class="">GrydPark is changing the way people park — Enabling<br> drivers to find and pre-book parking spots through our<br> advanced parking marketplace app.</p>
                 <div class="my-4"></div> <!-- spacer -->
