@@ -173,12 +173,12 @@
                 <div class="card mx-auto bg-light special-card-2 my-4 px-4">
                     <div class="row my-auto">
                         <div class="col-auto text-center my-auto">
-                            <h3 class="h3-adapt-size">Convinient </h3>
+                            <h3 class="h3-adapt-size" s>Convinient </h3>
                         </div>
                         <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
                         <div class="col text-left my-auto p-adapt-size">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
                         <div class="col-1 d-none d-md-block">
-                            <div class="bookmark shadow-sm">
+                            <div class="bookmark shadow-sm" style="margin-top:-55px">
                                 <h6>A</h6>
                             </div>
                         </div>
@@ -235,8 +235,8 @@
         <div class="container-sm text-center bg-light-gray" style="height:50%">
             <!-- Pseudo centering with cheating spacer -->
             <div style="height:30%"></div>
-            <h1 style="font-weight:500;letter-spacing:3px"> HAVE QUESTIONS? </h1>
-            <button class="btn main-btn px-5" type="submit">Grydpark Support Site </button>
+            <h1 style="font-weight:500;letter-spacing:3px"> HAVE QUESTIONS?</h1>
+            <button class="btn main-btn px-5" type="submit">Grydpark Support Site</button>
         </div>
         <!-- Content -->
     </div>
