@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-
+</header>
 
 <div class="container" style="min-height:65vh">
     <div class="my-5"></div>
@@ -20,8 +20,6 @@ if( have_posts() ){
 ?>
 <div class="my-5"></div>
 </div>
-
-</header>
 <?php
     get_footer();
 ?>
