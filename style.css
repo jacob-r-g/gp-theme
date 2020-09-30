@@ -266,8 +266,8 @@ button.faq {
     height: 60px;
     border-radius: 0.125rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 600;
     font-size: 1rem;
     color: white;
     background-color: var(--primary-green);
@@ -389,8 +389,8 @@ button.faq {
 }
 
 .body-copy{
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 300;
     color: var(--charcoal);
     line-height: 1.7rem;
     letter-spacing: 0.5px;
@@ -447,6 +447,7 @@ button.faq {
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.5px;
+    font-weight: 300;
 
 }
 
@@ -469,3 +470,29 @@ button.faq {
     -webkit-box-shadow: none;
 }
 
+.fa-mail-wrap { 
+            position: relative; 
+        } 
+          
+.fa-mail-wrap i{ 
+    position: absolute; 
+    left: 15px; 
+    top: 40px; 
+    color: gray; 
+} 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--light-gray);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--light-gray);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--light-gray);
+}
+
+
+# add city image under signup with collapse

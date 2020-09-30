@@ -6,7 +6,7 @@
     <!-- Mask & flexbox options-->
     <div class="mask d-flex justify-content-center " style="background-color:rgba(0,0,0,0);overflow:visible;">
         <!-- Content -->
-        <div style="min-height:100vh; max-height:100% class=" container">
+        <div style="min-height:100vh; max-height:100%" class="container">
             <!--Grid row-->
             <div class="row justify-content-start">
                 <!--Grid column-->
@@ -16,7 +16,7 @@
                 </div>
                 <!-- For smaller screens -->
                 <div class="d-md-none col-md black-text my-lg wow fadeInLeft" data-wow-delay="0.3s">
-                    <h1 style="margin-top:10vh" class="display-3 stic-sm">Stop Driving in <span class="primary-green">Circles</span>.</h1>
+                    <h1 style="margin-top:5vh" class="display-3 stic-sm">Stop Driving in <span class="primary-green">Circles</span>.</h1>
                 </div>
                 <!--Grid column-->
             </div>
@@ -33,7 +33,10 @@
                 <form id="getresponse-form" class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
                     <div class="col-md">
                         <div class="input-group mb-3">
-                            <input style="width:55vw; max-width:300px" type="text" id="emailinput" name="email" class="form-control email-input" placeholder="johndoe@example.com">
+                            <div class="input-group-prepend d-none d-sm-flex">
+                                <span class="input-group-text" style="border:none; background-color: var(--light-gray); border-radius:.125rem"><i class="fa fa-envelope-o fa-fw"></i></span> </div>
+                            <input style="width:47vw; max-width:345px; border-radius:.125rem" type="text" id="emailinput" name="email" class="form-control email-input" placeholder=" johndoe@example.com"> 
+                
                             <div class="input-group-append">
                                 <button id="getresponse-submit" class="btn main-btn mail-btn" type="submit">Sign Up</button>
                             </div>
@@ -52,7 +55,7 @@
             <!--Grid row-->
         </div>
         <!-- For larger screens -->
-        <div class="float-right position-absolute d-none d-lg-block" style="top:37vh;left:36vw;z-index:2"><img style="width:90vh ;max-width:1035px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
+        <div class="float-right position-absolute d-none d-lg-block" style="top:25vh;left:38vw;z-index:2"><img style="width:90vh ;max-width:1035px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
         <!-- For smaller screens -->
         <!--         <div class="container">
             <img class=" img d-lg-none" style="width:90vw" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png">
@@ -76,7 +79,7 @@
             <!-- Text col -->
             <div style="min-width:40vw " class="col-md-6 d-none d-md-block">
                 <h1 class="charcoal mt-3 h1-connecting">Connecting <span class="primary-green">drivers </span>to<br>available <span class="primary-green"> parking</span> spots.</h1>
-                <div style="margin: 35px 0px;"></div> <!-- spacer -->
+                <div style="margin: 35px 0px; font"></div> <!-- spacer -->
                 <p class="body-copy">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
                 <div style="margin: 35px 0px;"></div> <!-- spacer -->
                 <button class="btn main-btn px-5" type="submit"> Learn More </button>
@@ -177,7 +180,7 @@
         <!-- spacer -->
         <div class="my-4"></div>
         <h3 class="text-center primary-green" style="letter-spacing:3px">PARKING</h3>
-        <h1 class="text-center" style="letter-spacing:4px">BENEFITS</h1>
+        <h1 class="text-center htp" style="letter-spacing:4px">BENEFITS</h1>
         <div class="row ">
             <div class="col">
                 <div class="card mx-auto bg-light special-card-2 my-4 px-4">
@@ -248,13 +251,12 @@
                     <h1 class="hqh"> HAVE QUESTIONS?</h1>
                     <button onclick=" help_page()" class="btn main-btn px-5">Grydpark Support Site</button>
                     <script>
-                    function help_page()
-                    {
+                    function help_page() {
                         window.open(
-                          'https://help.parkwithgryd.com/',
-                          '_blank' // <- open in new window.
+                            'https://help.parkwithgryd.com/',
+                            '_blank' // <- open in new window.
                         );
-                    } 
+                    }
                     </script>
                 </div>
             </div>
