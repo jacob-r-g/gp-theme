@@ -40,7 +40,7 @@
     <body class="gryd-pattern-background">
         <?php } ?>
         <!-- Main navigation -->
-        <header class="front-page">
+        <header>
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
                 <div class="container">
