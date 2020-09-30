@@ -263,7 +263,12 @@ button.faq {
 /*Tweaked buttons*/
 
 .btn.main-btn {
-    border-radius: 0;
+    height: 60px;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1rem;
     color: white;
     background-color: var(--primary-green);
     letter-spacing:3px;
@@ -372,4 +377,41 @@ button.faq {
     padding-left: 14px;
     padding-top: 21px;
     margin-top: -40px;
+}
+
+.email-input{
+    background-color: #eaeaea;
+    border:none;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    height: 60px;
+}
+.h1-connecting{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.body-copy{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--charcoal);
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+    max-height: 630px;
+}
+
+.htp{
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.nums{
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: -40px
+
 }

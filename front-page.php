@@ -21,7 +21,7 @@
             <!--Grid row-->
             <div id="getresponse-form-label" class="row justify-content-start">
                 <div class="col-sm-6">
-                    <h1 class="mb-3" style="font-size:1.25em"> GET EARLY ACCESS</h1>
+                    <h1 class="mb-3" style="font-size:1.125em; letter-spacing:2px"> GET EARLY ACCESS</h1>
                 </div>
             </div>
             <!--Grid row-->
@@ -29,7 +29,7 @@
                 <form id="getresponse-form" class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
                     <div class="col-md">
                         <div class="input-group mb-3">
-                            <input style="height:50px;width:60vw; max-width:300px" type="text" id="emailinput" name="email" class="form-control" placeholder="Your email here.">
+                            <input style="width:60vw; max-width:300px" type="text" id="emailinput" name="email" class="form-control email-input" placeholder="johndoe@example.com">
                             <div class="input-group-append">
                                 <button style="margin:0;text-transform:None;width:130px" id="getresponse-submit" class="btn main-btn" type="submit">Sign Up</button>
                             </div>
@@ -47,7 +47,7 @@
             </div>
             <!--Grid row-->
         </div>
-        <div class="float-right position-absolute d-none d-lg-block" style="top:30vh;left:33vw;z-index:2"><img style="width:100vh ;max-width:700px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
+        <div class="float-right position-absolute d-none d-lg-block" style="top:37vh;left:36vw;z-index:2"><img style="width:90vh ;max-width:1035px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
         <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
@@ -60,15 +60,15 @@
         <div class="row align-items-center justify-content-center">
             <!-- Image col -->
             <div class="col-md mx-5 " style="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-crop.png" class="img-fluid pt-4" style="max-width:calc(1036px / 2); max-height:calc(1460px / 2); height:calc(200px + 15 * ((100vh - 200px) / 20));">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-crop.png" class="img-fluid pt-4" style="max-width:calc(1036px / 2); max-height:calc(1460px / 2); height:80vh">
             </div>
             <!-- Image col -->
             <!-- Text col -->
             <div class="col-md-6 d-none d-md-block">
-                <h1 class="charcoal mt-3">Connecting <span class="primary-green">drivers</span> to<br>available <span class="primary-green"> parking</span> spots.</h1>
-                <div class="my-4"></div> <!-- spacer -->
-                <p class="">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
-                <div class="my-4"></div> <!-- spacer -->
+                <h1 class="charcoal mt-3 h1-connecting">Connecting <span class="primary-green">drivers </span>to<br>available <span class="primary-green"> parking</span> spots.</h1>
+                <div style="margin: 35px 0px;"></div> <!-- spacer -->
+                <p class="body-copy">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
+                <div style="margin: 35px 0px;"></div> <!-- spacer -->
                 <button class="btn main-btn px-5" type="submit"> Learn More </button>
                 <div class="pb-2"></div> <!-- spacer -->
             </div>
@@ -94,11 +94,11 @@
         <!-- spacer -->
         <div class="my-5"></div>
         <h3 class="text-center primary-green" style="letter-spacing:3px">STEPS</h3>
-        <h1 class="text-center mb-4" style="letter-spacing:4px">HOW TO PARK</h1>
+        <h1 class="text-center mb-4 htp">HOW TO PARK</h1>
         <!-- For all screen sizes Except md -->
         <div class="row d-md-none d-lg-flex">
             <div class="col-md-4 mb-4 px-4">
-                <h3>01</h3>
+                <h3 class="nums">01</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_plan.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Plan</h3>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-4 px-4">
-                <h3>02</h3>
+                <h3 class="nums">02</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_pay.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Pay</h3>
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-4 px-4">
-                <h3>03</h3>
+                <h3 class="nums">03</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sec3_park.png" class="img-fluid my-4" style="max-width:100%;height:auto">
                 <div class="card special-card-1 text-center">
                     <h3 class="primary-green pt-2">Park</h3>
