@@ -142,23 +142,7 @@ h6 {
     background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
-/*.view .mask {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-attachment: fixed
-}*/
 
-/*.overlay .mask {
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out
-}*/
 
 /*For WP generated footer menu*/
 .footer li {
@@ -171,6 +155,10 @@ h6 {
     padding-left: 0px;
 }
 
+/*For navbar dropdown*/
+.navbar-collapse{
+    background-color: white;
+}
 
 
 /*For navbar shadow*/
@@ -180,37 +168,25 @@ h6 {
 }
 
 /*For navbar items */
-.navbar-nav{
-    font-weight: 600
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.25px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 1.5rem;
+    color:var(--charcoal);
 }
 
-.nav-link{
-    padding: 1.5rem 1rem;
-    margin-right:15px;
-    margin-left: 15px;
-}
-
-.nav-link:hover{
-    background-color: var(--primary-green);
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--primary-green);
 }
 
 /*For Navbar item  selected background color*/
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link{
- background-color: var(--primary-green);
- color:white;
+color: var(--primary-green);
 }
 
-/*For transparent navbar*/
-.navbar.transparent .navbar-inner {
-    position: absolute;
-    top: 10px;
-    z-index: 1030;
-    padding-right: 15px;
-}
-
-.navbar.transparent {
-    padding: 0 1rem;
-}
 
 /*FAQ button font*/
 button.faq {

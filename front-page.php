@@ -3,6 +3,10 @@
 ?>
 <!-- Full Page Intro -->
 <div class="view" style="background-color:white;overflow:visible;">
+    <!-- Spacer big screen -->
+    <div class="d-none d-md-block" style="margin-bottom: 6rem"></div>
+    <!-- Spacer small screen -->
+    <div class="d-md-none" style="margin-bottom: 2rem"></div>
     <!-- Content -->
     <div class="container">
         <!--Grid row-->
@@ -107,9 +111,7 @@
 </div>
 <div class="view" style="background-color:white;height:110%">
     <!-- Content -->
-    <div class="container" style="height:100% max-height:1080px">
-        <!-- spacer -->
-        <div class="my-5"></div>
+    <div class="container pt-5" style="height:100% max-height:1080px">
         <h3 class="text-center primary-green" style="letter-spacing:3px">STEPS</h3>
         <h1 class="text-center mb-4 htp">HOW TO PARK</h1>
         <!-- For all screen sizes Except md -->
@@ -173,64 +175,63 @@
         <!--For md screen size -->
     </div>
     <!-- Content -->
-    <!-- Spacer -->
-    <div style="margin-bottom:80px"></div>
 </div>
 <div class="view" style="background-color:var(--light-gray); min-height:95vh;height:100%">
     <!-- Content -->
-    <div class="container">
-        <!-- spacer -->
-        <div class="my-4"></div>
-        <h3 class="text-center primary-green" style="letter-spacing:3px">PARKING</h3>
-        <h1 class="text-center" style="letter-spacing:4px">BENEFITS</h1>
-        <div class="row ">
-            <div class="col">
-                <div class="card mx-auto bg-light special-card-2 my-4 px-4">
-                    <div class="row my-auto">
-                        <div class="col-auto text-center my-auto">
-                            <h3 class="h3-adapt-size" s>Convinient </h3>
-                        </div>
-                        <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                        <div class="col text-left my-auto p-adapt-size">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
-                        <div class="col-1 d-none d-md-block">
-                            <div class="bookmark shadow-sm">
-                                <h6>A</h6>
+    <div class="container pt-5">
+
+            <h3 class="text-center primary-green" style="letter-spacing:3px">PARKING</h3>
+            <h1 class="text-center" style="letter-spacing:4px">BENEFITS</h1>
+        <div class="container">
+            <div class="row ">
+                <div class="col">
+                    <div class="card mx-auto bg-light special-card-2 my-4 px-4">
+                        <div class="row my-auto">
+                            <div class="col-auto text-center my-auto">
+                                <h3 class="h3-adapt-size" s>Convinient </h3>
+                            </div>
+                            <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
+                            <div class="col text-left my-auto p-adapt-size">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
+                            <div class="col-1 d-none d-md-block">
+                                <div class="bookmark shadow-sm">
+                                    <h6>A</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card mx-auto bg-light special-card-2 my-1 px-4">
-                    <div class="row my-auto">
-                        <div class="col-auto text-center my-auto">
-                            <h3 class="h3-adapt-size">Affordable</h3>
-                        </div>
-                        <div style="size:200px" class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                        <div class="col text-left my-auto p-adapt-size">Our competitive pricing is often lower than the surrounding parking options. Our casual rates mean that you only pay for when you need to park.</div>
-                        <div class="col-1 d-none d-md-block">
-                            <div class="bookmark shadow-sm">
-                                <h6>B</h6>
+            <div class="row">
+                <div class="col">
+                    <div class="card mx-auto bg-light special-card-2 my-1 px-4">
+                        <div class="row my-auto">
+                            <div class="col-auto text-center my-auto">
+                                <h3 class="h3-adapt-size">Affordable</h3>
+                            </div>
+                            <div style="size:200px" class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
+                            <div class="col text-left my-auto p-adapt-size">Our competitive pricing is often lower than the surrounding parking options. Our casual rates mean that you only pay for when you need to park.</div>
+                            <div class="col-1 d-none d-md-block">
+                                <div class="bookmark shadow-sm">
+                                    <h6>B</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card mx-auto bg-light special-card-2 my-4 px-4 ">
-                    <div class="row my-auto">
-                        <div class="col-auto text-center my-auto">
-                            <h3 class="h3-adapt-size">Innovative</h3>
-                        </div>
-                        <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                        <div class="col text-left my-auto p-adapt-size">Book a parking spot before you leave home to avoid circling the block.  Our helpful navigation system will direct you straight to your assigned spot.</div>
-                        <div class="col-1 d-none d-md-block">
-                            <div class="bookmark shadow-sm">
-                                <h6>C</h6>
+            <div class="row">
+                <div class="col">
+                    <div class="card mx-auto bg-light special-card-2 my-4 px-4 ">
+                        <div class="row my-auto">
+                            <div class="col-auto text-center my-auto">
+                                <h3 class="h3-adapt-size">Innovative</h3>
+                            </div>
+                            <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
+                            <div class="col text-left my-auto p-adapt-size">Book a parking spot before you leave home to avoid circling the block.  Our helpful navigation system will direct you straight to your assigned spot.</div>
+                            <div class="col-1 d-none d-md-block">
+                                <div class="bookmark shadow-sm">
+                                    <h6>C</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -241,7 +242,7 @@
     <!-- Content -->
 </div>
 </div>
-<div class="view" style="background-color:white;height:45vh">
+<div class="view d-flex align-items-center" style="background-color:white;height:55vh ;min-height:465px">
     <!-- Content -->
     <div class="container d-flex justify-content-center align-items-center text-center bg-light-gray hqb">
         <div class="row">
