@@ -188,7 +188,7 @@
                     <div class="card mx-auto bg-light special-card-2 my-4 px-4">
                         <div class="row my-auto">
                             <div class="col-auto text-center my-auto">
-                                <h3 class="sc2h" s>Convinient </h3>
+                                <h3 class="sc2h" s>Convenient </h3>
                             </div>
                             <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
                             <div class="col text-left my-auto sc2b">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
