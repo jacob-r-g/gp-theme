@@ -33,7 +33,10 @@
                 <form id="getresponse-form" class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
                     <div class="col-md">
                         <div class="input-group mb-3">
-                            <input style="width:55vw; max-width:300px" type="text" id="emailinput" name="email" class="form-control email-input" placeholder="johndoe@example.com">
+                            <div class="input-group-prepend d-none d-sm-block">
+                                <span style="border:none;background-color: var(--light-gray); height:60px" class="input-group-text"><i class="fa fa-envelope-o fa-fw"></i></span>
+                            </div>
+                            <input style="width:55vw; max-width:300px;border-radius:0.125rem;" type="text" id="emailinput" name="email" class="email-input form-control " placeholder="johndoe@example.com">
                             <div class="input-group-append">
                                 <button id="getresponse-submit" class="btn main-btn mail-btn" type="submit">Sign Up</button>
                             </div>
