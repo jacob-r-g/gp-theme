@@ -415,16 +415,18 @@ button.faq {
 
 }
 
-.h3-adapt-size {
+.sc2h {
     font-size:1.75rem;
     font-weight: 700;
     letter-spacing: 1px;
     color:var(--primary-green);
 }
-.p-adapt-size{
+.sc2b{
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 

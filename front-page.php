@@ -188,10 +188,10 @@
                     <div class="card mx-auto bg-light special-card-2 my-4 px-4">
                         <div class="row my-auto">
                             <div class="col-auto text-center my-auto">
-                                <h3 class="h3-adapt-size" s>Convinient </h3>
+                                <h3 class="sc2h" s>Convinient </h3>
                             </div>
                             <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                            <div class="col text-left my-auto p-adapt-size">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
+                            <div class="col text-left my-auto sc2b">A solution to your parking stress at your fingertips. <br>Search, book and pay all in one seamless experience. </div>
                             <div class="col-1 d-none d-md-block">
                                 <div class="bookmark shadow-sm">
                                     <h6>A</h6>
@@ -206,10 +206,10 @@
                     <div class="card mx-auto bg-light special-card-2 my-1 px-4">
                         <div class="row my-auto">
                             <div class="col-auto text-center my-auto">
-                                <h3 class="h3-adapt-size">Affordable</h3>
+                                <h3 class="sc2h">Affordable</h3>
                             </div>
                             <div style="size:200px" class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                            <div class="col text-left my-auto p-adapt-size">Our competitive pricing is often lower than the surrounding parking options. Our casual rates mean that you only pay for when you need to park.</div>
+                            <div class="col text-left my-auto sc2b">Our competitive pricing is often lower than the surrounding parking options. Our casual rates mean that you only pay for when you need to park.</div>
                             <div class="col-1 d-none d-md-block">
                                 <div class="bookmark shadow-sm">
                                     <h6>B</h6>
@@ -224,10 +224,10 @@
                     <div class="card mx-auto bg-light special-card-2 my-4 px-4 ">
                         <div class="row my-auto">
                             <div class="col-auto text-center my-auto">
-                                <h3 class="h3-adapt-size">Innovative</h3>
+                                <h3 class="sc2h">Innovative</h3>
                             </div>
                             <div class="col-auto primary-green my-auto d-none d-md-block"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow.png" class="img-fluid" style="max-width:75px"> </div>
-                            <div class="col text-left my-auto p-adapt-size">Book a parking spot before you leave home to avoid circling the block.  Our helpful navigation system will direct you straight to your assigned spot.</div>
+                            <div class="col text-left my-auto sc2b">Book a parking spot before you leave home to avoid circling the block.  Our helpful navigation system will direct you straight to your assigned spot.</div>
                             <div class="col-1 d-none d-md-block">
                                 <div class="bookmark shadow-sm">
                                     <h6>C</h6>
