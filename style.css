@@ -113,12 +113,13 @@ a.mail:before {
 
 /*Full page backdrop from <!-- inspired by: https://mdbootstrap.com/docs/jquery/css/background-image/ -->*/
 /* Required for full background image */
-html.front-page,
+html{
+    height:100%;
+}
 body.front-page,
 header.front-page,
 .view {
-    height: 100vh;
-    min-height: 600px;
+    min-height: 100vh;
 }
 
 .btn .fa {
@@ -418,7 +419,7 @@ button.faq {
 }
 
 .stic-sm{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: var(--charcoal);
 }
