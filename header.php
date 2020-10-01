@@ -42,9 +42,9 @@
         <!-- Main navigation -->
         <header>
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
+            <nav class="navbar navbar-expand-lg  navbar-light bg-white navstyles" role="navigation">
                 <div class="container">
-                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="200"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

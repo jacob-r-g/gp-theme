@@ -3,40 +3,41 @@
 ?>
 <!-- Full Page Intro -->
 <div class="view" style="background-color:white;overflow:visible;">
-    <!-- Mask & flexbox options-->
-    <div class="mask d-flex justify-content-center " style="background-color:rgba(0,0,0,0);overflow:visible;position:relative;">
-        <!-- Content -->
-        <div class="container">
-            <!--Grid row-->
-            <div class="row justify-content-start">
-                <!--Grid column-->
-                <!-- For larger screens -->
-                <div class="d-none d-md-block col-md black-text my-lg wow fadeInLeft" data-wow-delay="0.3s">
-                    <h1 style="margin-top:10vh" class="display-3 stic">Stop Driving in <span class="primary-green">Circles</span>.</h1>
-                </div>
-                <!-- For smaller screens -->
-                <div class="d-md-none col-md black-text my-lg wow fadeInLeft" data-wow-delay="0.3s">
-                    <h1 style="margin-top:10vh" class="display-3 stic-sm">Stop Driving in <span class="primary-green">Circles</span>.</h1>
-                </div>
-                <!--Grid column-->
+    <!-- Content -->
+    <div class="container">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <!-- For larger screens -->
+            <div class="d-none d-md-block col-md black-text my-lg ">
+                <h1 style="margin-top:10vh" class="stic">Stop Driving in <span class="primary-green">Circles</span>.</h1>
             </div>
-            <!-- Spacer -->
-            <div class="my-5"></div>
-            <!--Grid row-->
-            <div id="getresponse-form-label" class="row justify-content-start">
+            <!-- For smaller screens -->
+            <div class="d-md-none col-md black-text my-lg">
+                <h1 style="margin-top:10vh" class="stic-sm">Stop Driving in <span class="primary-green">Circles</span>.</h1>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!-- Spacer -->
+        <div style="margin-bottom:5rem"></div>
+        <!--Grid row-->
+        <div class="container">
+            <div id="getresponse-form-label" class="row">
                 <div class="col-sm-6">
                     <h1 class="mb-3" style="font-size:1.125em; letter-spacing:2px"> GET EARLY ACCESS</h1>
                 </div>
             </div>
-            <!--Grid row-->
-            <div class="row justify-content-start">
+        </div>
+        <!--Grid row-->
+        <div class="container">
+            <div class="row">
                 <form id="getresponse-form" class="form-inline getresponse" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
                     <div class="col-md">
                         <div class="input-group mb-3">
                             <div class="input-group-prepend d-none d-sm-block">
                                 <span style="border:none;background-color: var(--light-gray); height:60px" class="input-group-text"><i class="fa fa-envelope-o fa-fw"></i></span>
                             </div>
-                            <input style="width:55vw; max-width:300px;border-radius:0.125rem;" type="text" id="emailinput" name="email" class="email-input form-control " placeholder="johndoe@example.com">
+                            <input style="width:48vw; max-width:300px;border-radius:0.125rem;" type="text" id="emailinput" name="email" class="email-input form-control " placeholder="johndoe@example.com">
                             <div class="input-group-append">
                                 <button id="getresponse-submit" class="btn main-btn mail-btn" type="submit">Sign Up</button>
                             </div>
@@ -52,20 +53,21 @@
                     </div>
                 </div>
             </div>
-            <!--Grid row-->
-            <!-- For smaller screens -->
+        </div>
+        <!--Grid row-->
+        <!-- For smaller screens -->
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <img class=" img d-lg-none" style="width:85vw" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png">
                 </div>
             </div>
         </div>
-        <!-- For larger screens -->
-        <div class="float-right position-absolute d-none d-lg-block" style="top:25vh;left:36vw;z-index:2"><img style="width:50vw ;max-width:1035px; min-width: 530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
     </div>
+    <!-- For larger screens -->
+    <div class="float-right position-absolute d-none d-lg-block" style="top:34vh;left:38vw;z-index:2"><img style="width:50vw ;max-width:1035px; min-width:530px" src="<?php echo get_template_directory_uri(); ?>/assets/images/sec1_grydcity.png"></div>
     <!-- Content -->
 </div>
-<!-- Mask & flexbox options-->
 </div>
 <!-- Full Page Intro -->
 </header>
@@ -102,7 +104,6 @@
         </div>
         <!-- Content -->
     </div>
-    <!-- Mask & flexbox options-->
 </div>
 <div class="view" style="background-color:white;height:110%">
     <!-- Content -->
@@ -176,8 +177,6 @@
     <div style="margin-bottom:80px"></div>
 </div>
 <div class="view" style="background-color:var(--light-gray); min-height:95vh;height:100%">
-    <!-- Mask & flexbox options-->
-    <!-- <div class="mask d-flex justify-content-center align-items-center"> -->
     <!-- Content -->
     <div class="container">
         <!-- spacer -->
@@ -241,32 +240,27 @@
     </div>
     <!-- Content -->
 </div>
-<!-- Mask & flexbox options-->
-<!-- </div> -->
 </div>
 <div class="view" style="background-color:white;height:45vh">
-    <!-- Mask & flexbox options-->
-    <div class="mask d-flex justify-content-center align-items-center">
-        <!-- Content -->
-        <div class="container d-flex justify-content-center align-items-center text-center bg-light-gray hqb">
-            <div class="row">
-                <div class="col">
-                    <h1 class="hqh"> HAVE QUESTIONS?</h1>
-                    <button onclick=" help_page()" class="btn main-btn px-5">Grydpark Support Site</button>
-                    <script>
-                    function help_page() {
-                        window.open(
-                            'https://help.parkwithgryd.com/',
-                            '_blank' // <- open in new window.
-                        );
-                    }
-                    </script>
-                </div>
+    <!-- Content -->
+    <div class="container d-flex justify-content-center align-items-center text-center bg-light-gray hqb">
+        <div class="row">
+            <div class="col">
+                <h1 class="hqh"> HAVE QUESTIONS?</h1>
+                <button onclick=" help_page()" class="btn main-btn px-5">Grydpark Support Site</button>
+                <script>
+                function help_page() {
+                    window.open(
+                        'https://help.parkwithgryd.com/',
+                        '_blank' // <- open in new window.
+                    );
+                }
+                </script>
             </div>
         </div>
-        <!-- Content -->
     </div>
-    <!-- Mask & flexbox options-->
+    <!-- Content -->
+    <!-- </div> -->
 </div>
 <?php
     get_footer();

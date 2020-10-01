@@ -142,7 +142,7 @@ h6 {
     background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
-.view .mask {
+/*.view .mask {
     position: absolute;
     top: 0;
     right: 0;
@@ -152,13 +152,13 @@ h6 {
     height: 100%;
     overflow: hidden;
     background-attachment: fixed
-}
+}*/
 
-.overlay .mask {
+/*.overlay .mask {
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out
-}
+}*/
 
 /*For WP generated footer menu*/
 .footer li {
@@ -469,5 +469,9 @@ button.faq {
     width:130px;
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+.navstyles {
+    height: 90px;
 }
 
