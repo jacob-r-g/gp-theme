@@ -1,4 +1,10 @@
 <!-- Footer -->
+
+<!-- help button -->
+<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', 'd805142a-e480-4e4c-99bb-5bf1b6fa3397')</script>
+
+
 <footer class="footer" style="position:relative;display:block">
     <div class="container" style="padding-left: 30px">
         <div style="padding-top: 50px;padding-bottom: 30px;">
