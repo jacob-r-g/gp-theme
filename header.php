@@ -15,11 +15,6 @@
         width: 100%;
         height: 100%;
         position: absolute;
-       /* background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Green-03.png');
-        background-size: 750px;
-        background-position: center; 
-        background-attachment: fixed;
-        opacity: 0.075;*/
     }  
 </style>
 
