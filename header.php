@@ -15,11 +15,6 @@
         width: 100%;
         height: 100%;
         position: absolute;
-/*        background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Gryd-Pattern_Green-03.png');
-        background-size: 750px;
-        background-position: center; 
-        background-attachment: fixed;
-        opacity: 0.20;*/
     }  
 </style>
 
@@ -40,11 +35,11 @@
     <body class="gryd-pattern-background">
         <?php } ?>
         <!-- Main navigation -->
-        <header class="front-page">
+        <header>
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg  navbar-light bg-white" role="navigation">
+            <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-white navstyles" role="navigation">
                 <div class="container">
-                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="250"></a>
+                    <a class="navbar-brand" href="<?php echo get_home_url("/") ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/GrydPark-fullcolour.png" class="img-fluid " alt="{gryd-park-logo}" width="200"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

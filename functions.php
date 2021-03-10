@@ -34,9 +34,6 @@ function grydpark_register_styles(){
 	wp_enqueue_style('grydpark-fontawesome', "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", array(), '4.7.0', 'all');
 	// google fonts for MDB
 	wp_enqueue_style('grydpark-google-font', "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap", array(), '4.5.0', 'all');
-	// Material Design Bootstrap
-	wp_enqueue_style('grydpark-mdb', "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css", array(), '4.19.1', 'all');
-	// bootstrap css
 	wp_enqueue_style('grydpark-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", array(), '4.5.0', 'all');
 	// Gryd Fonts
 	wp_enqueue_style('grydpark-manrope-font', "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap", array(), '1.0', 'all');
@@ -55,9 +52,6 @@ function grydpark_register_scripts(){
 	wp_enqueue_script('grydpark-popper', "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js", array(), '1.16.0', true);
 	// bootstrap core js
 	wp_enqueue_script('grydpark-bootstrap-js', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js", array(), '4.5.0', true);
-	// mdb core js
-	wp_enqueue_script('grydpark-mdb-js', "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js", array(), '4.19.1', true);
-	// custom js
 	wp_enqueue_script('grydpark-main-js', get_template_directory_uri() . "/assets/js/main.js", array(), '1.0', true);
 	
 }
