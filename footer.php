@@ -35,7 +35,7 @@
                     );
                     ?>
         </div>
-        <div style="font-size:85%; font-weight:300; padding-bottom:10px;">&copy; Copyright 2020 Gryd.com</div>
+        <div style="font-size:85%; font-weight:300; padding-bottom:10px;">&copy; Copyright 2021 Gryd.com</div>
     </div>
 </footer>
 <!-- Load Javascript -->
