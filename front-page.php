@@ -93,7 +93,7 @@
                 <div style="margin: 35px 0px;"></div> <!-- spacer -->
                 <p class="body-copy">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
                 <div style="margin: 35px 0px;"></div> <!-- spacer -->
-                <button class="btn main-btn px-5" onclick="location.href='https://google.com';"> Learn More </button>
+                <button class="btn main-btn px-5" onclick="location.href='https://help.parkwithgryd.com/';"> Learn More </button>
                 <div class="pb-2"></div> <!-- spacer -->
             </div>
             <!-- Text col  for small screens-->
@@ -102,7 +102,7 @@
                 <div class="my-4"></div> <!-- spacer -->
                 <p class="body-copy text-center">GrydPark is changing the way people park — Enabling drivers to find and pre-book parking spots through our advanced parking marketplace app.</p>
                 <div class="my-4"></div> <!-- spacer -->
-                <button class="btn main-btn px-5"onclick="location.href='https://google.com';"> Learn More </button>
+                <button class="btn main-btn px-5"onclick="location.href='https://help.parkwithgryd.com/';"> Learn More </button>
                 <div class="pb-2"></div> <!-- spacer -->
             </div>
         </div>
