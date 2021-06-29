@@ -1,9 +1,8 @@
 <?php
     get_header();
 ?>
+<div class="py-5"></div>
 </header>
-
-<div class="my-5"></div>
 
 <div class="container" style="min-height:65vh">
     <div class="my-5"></div>
